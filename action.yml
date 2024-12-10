@@ -1,8 +1,8 @@
 apiVersion: automation.cloudbees.io/v1alpha1
 kind: action
 
-name: "CloudBees Platform - Goose Action"
-description: "Uses Goose to run commands against a repository"
+name: "CloudBees Platform - Example Action"
+description: "Prints a message"
 
 runs:
   using: "composite"
