@@ -10,4 +10,4 @@ runs:
     - name: Print something
       uses: docker://ubuntu:latest
       run: |
-        echo Revision 3
+        echo Revision 4
