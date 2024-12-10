@@ -8,5 +8,5 @@ runs:
   using: "composite"
   steps:
     - name: Print something
-      run: |
+      uses: docker://ubuntu:latest
         echo Revision 2
