@@ -10,4 +10,4 @@ runs:
     - name: Print something
       uses: ubuntu
       run: |
-        echo Revision 1
+        echo Revision 2
