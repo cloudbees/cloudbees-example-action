@@ -1,0 +1,13 @@
+apiVersion: automation.cloudbees.io/v1alpha1
+kind: action
+
+name: "CloudBees Platform - Goose Action"
+description: "Uses Goose to run commands against a repository"
+
+runs:
+  using: "composite"
+  steps:
+    - name: Print something
+      uses: ubuntu
+      run: |
+        echo Revision 1
