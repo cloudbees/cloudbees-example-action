@@ -8,6 +8,5 @@ runs:
   using: "composite"
   steps:
     - name: Print something
-      uses: ubuntu
       run: |
         echo Revision 2
