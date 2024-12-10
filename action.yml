@@ -3,11 +3,13 @@ kind: action
 
 name: "CloudBees Platform - Example Action"
 description: "Prints a message"
+env:
+  REVISION: 8
 
 runs:
   using: "composite"
   steps:
-    - name: Print something
+    - name: Printing in revision {{REVISION}} 
       uses: docker://ubuntu:latest
       run: |
-        echo Revision 7
+        echo Revision {{REVISION}}
