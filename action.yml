@@ -9,4 +9,5 @@ runs:
   steps:
     - name: Print something
       uses: docker://ubuntu:latest
+      run: |
         echo Revision 2
